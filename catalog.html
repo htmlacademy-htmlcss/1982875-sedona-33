@@ -42,9 +42,48 @@
         </ul>
       </nav>
     </header>
-    <main>
-      <section class="">
-        <h1>Гостиницы Седоны</h1>
+    <main class="main-inner">
+      <header class="inner-header">
+        <h1 class="inner-header-title">Гостиницы Седоны</h1>
+        <ul class="breadcrumbs">
+          <li class="breadcrumbs-item">
+            <a class="breadcrumbs-link visually-hidden" href="index.html">Главная</a>
+          </li>
+          <li class="breadcrumbs-item">
+            <a class="breadcrumbs-link">Гостиницы</a>
+          </li>
+        </ul>
+      </header>
+      <section class="catalog-hotels">
+        <h2 class="visually-hidden">Фильтр отбора гостиниц</h2>
+        <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
+          <fieldset class="catalog-filter-group">
+            <legend class="catalog-filter-title">Инфраструктура:</legend>
+              <label for="pool">Бассейн</label>
+                <input type="checkbox" id="pool" name="pool" checked>
+              <label for="parking">Парковка</label>
+                <input type="checkbox" id="parking" name="parking" checked>
+              <label for="wifi">Wi-Fi</label>
+                <input type="checkbox" id="wifi" name="wifi">
+          </fieldset>
+          <fieldset class="catalog-filter-group">
+            <legend class="catalog-filter-title">Тип жилья:</legend>
+              <label for="hotel">Гостиница</label>
+                <input type="radio" id="hotel" name="house-type" value="hotel" checked>
+              <label for="motel">Мотель</label>
+                <input type="radio" id="motel" name="house-type" value="motel">
+              <label for="apartment">Апартаменты</label>
+                <input type="radio" id="apartment" name="house-type" value="apartment">
+          </fieldset>
+          <fieldset class="catalog-filter-group">
+            <legend class="catalog-filter-title">Стоимость, ₽:</legend>
+              <input type="text" name="min-price" value="0" placeholder="от">
+              <input type="text" name="max-price" value="9000" placeholder="до">
+              <input type="range" name="price" min="0" max="9000" step="1000">
+          </fieldset>
+          <button class="button" type="submit">Применить</button>
+          <input class="reset" type="reset" value="Сбросить">
+        </form>
       </section>
       <section class="subscribe">
         <b class="subscribe-action">Подпишитесь на рассылку</b>
