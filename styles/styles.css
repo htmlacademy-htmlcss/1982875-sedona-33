@@ -73,7 +73,6 @@ body {
     text-align: center;
     text-transform: uppercase;
     background-image: url("../images/index_photo/divider.svg");
-    background-size: 100% auto;
     background-repeat: no-repeat;
 }
 
@@ -122,36 +121,41 @@ body {
     text-align: center;
 }
 
-.town,
-.bridge {
+.advantages-list li:first-child:not(.advantages-list-subitem),
+.advantages-list li:nth-child(2) {
     color: #ffffff;
     background-color: #83B3D3;
 }
 
-.square,
-.tourists {
+.advantages-list-subitem li:first-child {
+    color: #000000;
+    background-color: rgba(131, 179, 211, 0.12);
+    background-image: url("../images/index_icons/icon-1.svg");
+    background-repeat: no-repeat;
+}
+
+.advantages-list-subitem li:nth-child(2) {
+    background-color: #ffffff;
+    background-image: url("../images/index_icons/icon-2.svg");
+    background-repeat: no-repeat;
+}
+
+.advantages-list-subitem li:last-child {
+    color: #000000;
+    background-color: rgba(131, 179, 211, 0.12);
+    background-image: url("../images/index_icons/icon-3.svg");
+    background-repeat: no-repeat;
+}
+
+.advantages-list li:nth-child(3),
+.advantages-list li:nth-child(5) {
     color: #000000;
     background-color: rgba(131, 179, 211, 0.12);
 }
 
-.road {
+.advantages-list li:nth-child(4) {
     color: #000000;
     background-color: rgba(131, 179, 211, 0.2);
-}
-
-.house {
-    color: #000000;
-    background-color: rgba(131, 179, 211, 0.12);
-}
-
-.food {
-    color: #000000;
-    background-color: #ffffff;
-}
-
-.house {
-    color: #000000;
-    background-color: rgba(131, 179, 211, 0.12);
 }
 
 .searching {
@@ -195,6 +199,7 @@ body {
     font-weight: 400;
     font-size: 22px;
     line-height: 26px;
+    color: #333333;
 }
 
 .footer-phone-number {
@@ -205,4 +210,129 @@ body {
     color: #000000;
     text-align: center;
     text-decoration-line: none;
+}
+
+/* Стилизация страницы каталога */
+.header-filter {
+    color: #ffffff;
+    background-color: #83B3D3;
+    background-image: url("../images/catalog_photo/catalog-background.jpg");
+    background-repeat: no-repeat;
+}
+
+.select-sum {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 39px;
+    text-transform: uppercase;
+}
+
+.select-control {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #333333;
+}
+
+.hotel-card-link {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.hotel-card-price {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.blue-button {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #83B3D3;
+}
+
+.green-button {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #7DB54F;
+}
+
+.blue-button-pagination {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #83B3D3;
+}
+
+.pagination-link {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #83B3D3;
+}
+
+.pagination-current {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px; 
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    background-color: #F2F2F2;
+}
+
+.subscribe-action-catalog {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.subscribe-description-catalog {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #333333;
+}
+
+.blue-button-subscribe {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #83B3D3;
 }
