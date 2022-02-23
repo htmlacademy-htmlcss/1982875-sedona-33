@@ -60,7 +60,6 @@ body {
 .header-top {
     display: flex;
     justify-content: space-between;
-    width: 1060px;
     margin: 0 70px;
 }
 
@@ -238,31 +237,57 @@ body {
     margin: 0 75px 79px;
 }
 
-.house {
+.house,
+.presents {
+    position: relative;
     background-color: rgba(131, 179, 211, 0.12);
-    background: url("../images/index_icons/icon-1.svg") no-repeat 50% 30%;
 }
 
 .food {
-    background: url("../images/index_icons/icon-2.svg") no-repeat 50% 30%;
+    position: relative;
 }
 
-.presents {
-    background-color: rgba(131, 179, 211, 0.12);
-    background: url("../images/index_icons/icon-3.svg") no-repeat 50% 30%;
+.house::before {
+    content: '';
+    position: absolute;
+    top: 89px;
+    left: 0;
+    right: 0;
+    height: 72px;
+    background: url("../images/index_icons/icon-1.svg") no-repeat top center;
 }
 
-.advantages-list li:nth-child(3) {
+.food::before {
+    content: '';
+    position: absolute;
+    top: 91px;
+    left: 0;
+    right: 0;
+    height: 70px;
+    background: url("../images/index_icons/icon-2.svg") no-repeat top center;
+}
+
+.presents::before {
+    content: '';
+    position: absolute;
+    top: 85px;
+    left: 0;
+    right: 0;
+    height: 76px;
+    background: url("../images/index_icons/icon-3.svg") no-repeat top center;
+}
+
+.item-3 {
     grid-column: 1/2;
     background-color: rgba(131, 179, 211, 0.12);
 }
 
-.advantages-list li:nth-child(4) {
+.item-4 {
     grid-column: 2/3;
     background-color: rgba(131, 179, 211, 0.2);
 }
 
-.advantages-list li:nth-child(5) {
+.item-5 {
     grid-column: 3/3;
     background-color: rgba(131, 179, 211, 0.12);
 }
