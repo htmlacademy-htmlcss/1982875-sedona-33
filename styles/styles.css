@@ -162,7 +162,6 @@ body {
 .advantages-list {
    display: grid;
    grid-template-columns: repeat(3, 1fr);
-   width: 1200px;
    margin: 0;
    padding: 0;
    list-style-type: none; 
@@ -307,12 +306,26 @@ body {
 }
 
 .searching-answer {
-    font-weight: 400;
     font-size: 22px;
     line-height: 26px;
     color: #333333;
     margin-top: 29px;
     margin-bottom: 56px;
+}
+
+.searching-button {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    color: #FFFFFF;
+    background-color: #756257;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 150px;
+    border: #756257 1px solid;
+    border-radius: 10px;
+
 }
 
 .subscribe {
@@ -341,6 +354,36 @@ body {
     color: #ffffff;
     margin-top: 29px;
     margin-bottom: 46px;
+}
+
+.subscribe-form {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    width: 800px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.subscribe-mail {
+    font-size: 18px;
+    line-height: 26px;
+    background-color: #F2F2F2;
+    border: #F2F2F2 1px solid;
+    border-radius: 10px 0px 0px 10px;
+    padding-left: 22px;
+}
+
+.subscribe-button {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffffff;
+    background-color: #83B3D3;
+    border: #83B3D3 1px solid;
+    border-radius: 0px 10px 10px 0px;
+    padding: 17px 25px;
 }
 
 .page-footer-container {
@@ -446,10 +489,13 @@ body {
 }
 
 .hotel-list {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px 10px;
     width: 1058px;
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
 }
 
 .hotel-card {
@@ -539,14 +585,4 @@ body {
     text-align: center;
     color: #333333;
     margin-bottom: 46px;
-}
-
-.blue-button-subscribe {
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 26px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #ffffff;
-    background-color: #83B3D3;
 }
