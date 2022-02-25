@@ -94,7 +94,7 @@
               <input type="text" name="max-price" value="9000" placeholder="до">
               <input type="range" name="price" min="0" max="9000" step="1000">
           </fieldset>
-          <button class="button blue-button" type="submit">Применить</button>
+          <button class="blue-button" type="submit">Применить</button>
           <input class="reset" type="reset" value="Сбросить">
         </form>
       </section> 
@@ -103,21 +103,28 @@
       <!-- Список гостиниц -->
       <section class="select-hotels">
         <h2 class="visually-hidden">Список отборанных гостиниц</h2>
+      <div class="select-top">
         <b class="select-sum">Найдено гостиниц:38</b>
         <select class="select-control" aria-label="Сортировка">
           <option value="popular">Сначала популярное</option>
-          <option value="cheap" selected>Сначала дешёвое</option>
+          <option value="cheap" selected>Сначала дешёвые</option>
           <option value="expensive">Сначала дорогое</option>
         </select>
-        <a class="button tile-current" href="#">
+        <div class="show-buttons">
+        <a class="select-type tile-current" href="#">
           <span class="visually-hidden">Показать плиткой</span>
+          <img src="images/catalog_filter/mode-tile.svg" width="16" height="14" alt="Показать плиткой">
         </a>
-        <a class="button slideshow" href="#">
+        <a class="select-type" href="#">
           <span class="visually-hidden">Показать слайд-шоу</span>
+          <img src="images/catalog_filter/mode-slideshow.svg" width="16" height="14" alt="Показать слайд-шоу">
         </a>
-        <a href="#" class="button list">
+        <a href="#" class="select-type">
           <span class="visually-hidden">Показать список</span>
+          <img src="images/catalog_filter/mode-list.svg" width="16" height="14" alt="Показать список">
         </a>
+        </div>
+      </div>
         <ul class="hotel-list">
           <li class="hotel-card">
             <a class="hotel-card-link" href="product.html">
