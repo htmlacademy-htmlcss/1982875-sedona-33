@@ -81,7 +81,8 @@ body {
     text-transform: uppercase;
     padding: 8px 15px;
     width: 160px;
-    border: #756257 1px solid;
+    border: none;
+    cursor: pointer;
     border-radius: 4px;
     margin-top: -28px;
 }
@@ -330,7 +331,8 @@ body {
     text-align: center;
     text-decoration: none;
     padding: 15px 150px;
-    border: #756257 1px solid;
+    border: none;
+    cursor: pointer;
     border-radius: 10px;
 
 }
@@ -388,7 +390,8 @@ body {
     text-align: center;
     color: #ffffff;
     background-color: #83B3D3;
-    border: #83B3D3 1px solid;
+    border: none;
+    cursor: pointer;
     border-radius: 0px 10px 10px 0px;
     padding: 17px 25px;
 }
@@ -507,7 +510,8 @@ body {
     text-transform: uppercase;
     padding: 13px 35px;
     width: 160px;
-    border: #83B3D3 1px solid;
+    border: none;
+    cursor: pointer;
     border-radius: 4px;
 }
 
@@ -623,7 +627,8 @@ body {
     align-self: flex-start;
     width: 133px;
     padding: 10px 0;
-    border: #756257 1px solid;
+    border: none;
+    cursor: pointer;
     border-radius: 4px;
 }
 
@@ -638,7 +643,8 @@ body {
     align-self: flex-start;
     width: 141px;
     padding: 10px 0;
-    border: #83B3D3 1px solid;
+    border: none;
+    cursor: pointer;
     border-radius: 4px;
 }
 
@@ -653,7 +659,8 @@ body {
     align-self: end;
     width: 141px;
     padding: 10px 0;
-    border: #7DB54F 1px solid;
+    border: none;
+    cursor: pointer;
     border-radius: 4px;
 }
 
@@ -671,7 +678,8 @@ body {
     background-color: #83B3D3;
     padding: 17px;
     width: 620px;
-    border: #83B3D3 1px solid;
+    border: none;
+    cursor: pointer;
     border-radius: 4px;
 }
 
