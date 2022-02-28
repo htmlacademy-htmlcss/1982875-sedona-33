@@ -657,9 +657,11 @@ body {
     border-radius: 4px;
 }
 
-.blue-button-pagination {
+.pagination-button {
     display: block;
     margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
     font-weight: 700;
     font-size: 20px;
     line-height: 26px;
@@ -671,6 +673,13 @@ body {
     width: 620px;
     border: #83B3D3 1px solid;
     border-radius: 4px;
+}
+
+.show-more {
+    width: 1055px;
+    margin: 0 auto;
+    border-top: 1px solid #E6E6E6;
+    border-bottom: 1px solid #E6E6E6;
 }
 
 .pagination-container {
