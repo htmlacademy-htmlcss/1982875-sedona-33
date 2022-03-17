@@ -1081,6 +1081,7 @@ body {
   background-color: #83b3d3;
   background-image: url("../images/catalog_photo/catalog-background.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .inner-header-title {
@@ -1903,11 +1904,7 @@ body {
   color: #333333;  
   width: 160px;
   height: 48px;
-  padding: 0;
-  padding-top: 10px;
-  padding-bottom: 11px;
-  padding-left: 17px;
-  padding-right: 30px;
+  padding: 10px 30px 11px 17px;
   margin: 0;
   margin-left: 51px;
   border: 2px solid #e6e6e6;
